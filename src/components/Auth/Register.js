@@ -84,7 +84,6 @@ class Register extends React.Component {
             })
             .then(() => {
               this.saveUser(createdUser).then(() => {
-                console.log("user saved");
               });
             })
             .catch(err => {
