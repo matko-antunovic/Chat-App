@@ -19,3 +19,12 @@ body,
   right: 1em;
   z-index: 111;
 }
+
+.message__self{
+  border-left: 2px solid orange;
+  padding-left: 8px;
+}
+
+.message__image{
+  padding:1em;
+}
